@@ -1,0 +1,55 @@
+<style>
+    :root {
+      --red-color: #87b5ff;
+      --blue-gradient: linear-gradient(351deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    }
+    
+    .boxContainer1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 50px;
+    }
+    .box1 {
+      background: var(--blue-gradient);
+      padding: 10;
+      border-radius: 10px;
+      flex-basis: 33.33%;
+      margin: 10px;
+      height: 25em;
+      box-sizing: border-box;
+      flex: 0 0 calc(33.3333% - 30px);
+      text-align: center;
+      font-size: 20px;
+      text-decoration-color: red;
+    }
+    
+    #whiteText {
+      color: white;
+    }
+</style>
+<!DOCTYPE html>
+<html>
+<body>
+<div class="boxContainer1">
+    <div class="box1">
+        <p id="whiteText">There's a lot to think about right now!</p>
+    </div>
+    <div class="box1">
+        <p></p>
+    </div>
+    <div class="box1">
+        <p></p>
+    </div>
+    <div class="box1">
+       <p></p>
+    </div>
+    <div class="box1">
+        <p></p>
+    </div>
+    <div class="box1">
+        <p></p>
+    </div>
+</div>    
+</body>
+</html>
